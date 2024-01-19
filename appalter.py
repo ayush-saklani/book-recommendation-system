@@ -79,7 +79,4 @@ if st.button('Show Recommendation', use_container_width=True):
 
 # to run this app
 # streamlit run appalter.py
-
-
-
 # alternative design
