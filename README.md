@@ -9,9 +9,18 @@
 
 *  **Dataset link - https://www.kaggle.com/datasets/mdhamani/goodreads-books-100k**
 
-*  **Alternate dataset link (*requires additional preprocessing*) - https://www.kaggle.com/datasets/jealousleopard/goodreadsbooks**
+*  **Alternate dataset link (*requires additional preprocessing and changes in model*) - https://www.kaggle.com/datasets/jealousleopard/goodreadsbooks**
 
-**TABLE OF CONTENTS -**
+## **How to run this project** 
+- Open JuPyter notebook and run the program 
+- Now you will have 2 pickle files 
+- Then you can run apptest.py 
+- The command to run that is mentioned 1st the first line of code
+- Make sure you have all the libraries intalled specially streamlit
+
+#
+
+# **Table of Contents**
 
 <!-- # Take me to <a href="#pookie">pookie</a>
 # <a name="RecommendationSystems">this is pookie</a> -->
