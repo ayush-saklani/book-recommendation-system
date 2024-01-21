@@ -1,15 +1,13 @@
 # streamlit run apptest.py
-import numpy as np 
-import pandas as pd 
 import pickle
 import streamlit as st
 
 
-def recommend(book):
+def recommend_me_a_book(book):
     index = books[books['title'] == book].index[0]
     distances = sorted(list(enumerate(similarity[index])), reverse=True, key=lambda x: x[1])
     recommended_book_name = []
-    recommended_book_cover = []
+    recommended_book_cover = [] 
     recommended_isbn = []
     recommended_link = []
     # author  desc  genre  img  isbn  link  pages  rating  reviews  title  totalratings
@@ -34,10 +32,10 @@ given_index = books[books['title'] == selected_book].index[0]
 
 
 if st.button('Show Recommendation', use_container_width=True):
-    recommended_book_cover,recommended_book_name,recommended_isbn,recommended_link=recommend(selected_book)
+    recommended_book_cover,recommended_book_name,recommended_isbn,recommended_link=recommend_me_a_book(selected_book)
     
     with st.container():
-        col1,col2,col3,col4,col5= st.columns(5)
+        col1,col2,col3,col4,col5 = st.columns(5)
         with col1:
             st.image(books.iloc[given_index].img,use_column_width=True)
         with col2:
