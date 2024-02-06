@@ -1,9 +1,20 @@
-# Book Recommending System 📚
-* **GitHub Link -** [Explore on GitHub](https://github.com/ayush-saklani/book-recommendation-system) 🚀
+# **Book Recommending System**    <img src="https://upload.wikimedia.org/wikipedia/commons/0/0f/Stacked_books_icon.svg" width="60" height="60" align="left"/>
+
 * **Dataset Link -** [Goodreads Books 100k](https://www.kaggle.com/datasets/mdhamani/goodreads-books-100k) 📊
 * **Alternate Dataset Link (*requires additional preprocessing and changes in model*) -** [GoodreadsBooks](https://www.kaggle.com/datasets/jealousleopard/goodreadsbooks)📊
 
 * **Streamlit Documentation -** [API Reference](https://docs.streamlit.io/library/api-reference)🧾
+
+# **Coding Language and Library Used**
+<p align="left">
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" width="60" height="60"/>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jupyter/jupyter-original-wordmark.svg" width="60" height="60"/>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/streamlit/streamlit-original.svg" width="60" height="60"/>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/numpy/numpy-plain-wordmark.svg"  width="60" height="60"/>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/pandas/pandas-original-wordmark.svg" width="60" height="60"/>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/scikitlearn/scikitlearn-original.svg" width="60" height="60"/>
+</p>
+          
 
 
 # **How to run this project ?** 
@@ -87,3 +98,6 @@ Apply cosine similarity algorithm to get a similarity matrix. Create a function 
 # Deployment and User Interface
 
 Use Streamlit for the frontend, providing the easiest way to create a user interface for the Python application. Streamlit also offers free hosting for easy accessibility on any device with an internet browser.
+
+
+# **Keep Coding, Keep Smiling!, Have Fun!** 💻🚀
