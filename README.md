@@ -19,7 +19,7 @@
 
 # **How to run this project ?** 
 
-1. Open Jupyter notebook and run the program.
+1. Open `model.ipynb` Jupyter notebook and run the Model.
 2. After running, you will have 2 pickle files.
 3. Run `apptest.py` using the command mentioned in the first line of code.
 4. Ensure all required libraries, especially Streamlit, are installed *(use the latest pip libraries from [here](https://pypi.org/)).*
